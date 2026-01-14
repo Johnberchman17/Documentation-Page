@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Web Development Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <nav id="navbar">
+      <header>Frontend Web Development</header>
+      <a href="#Introduction" class="nav-link">Introduction</a>
+      <a href="#HTML_Fundamentals" class="nav-link">HTML Fundamentals</a>
+      <a href="#CSS_Essentials" class="nav-link">CSS Essentials</a>
+      <a href="#JavaScript_Basics" class="nav-link">JavaScript Basics</a>
+      <a href="#React_Overview" class="nav-link">React Overview</a>
+      <a href="#Responsive_Design" class="nav-link">Responsive Design</a>
+    </nav>
+
+    <main id="main-doc">
+
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Frontend web development focuses on building the visual and interactive parts of websites that users see and interact with directly.</p>
+        <p>It involves working with HTML, CSS, and JavaScript to create modern, responsive, and user-friendly websites.</p>
+        <p>Developers use frameworks and libraries to speed up the process and ensure cross-browser compatibility.</p>
+        <code>console.log("Welcome to Frontend Development!");</code>
+        <ul>
+          <li>HTML structures the webpage</li>
+          <li>CSS adds design and layout</li>
+          <li>JavaScript makes it interactive</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="HTML_Fundamentals">
+        <header>HTML Fundamentals</header>
+        <p>HTML stands for HyperText Markup Language and it forms the structure of a webpage.</p>
+        <p>Every website you visit is built with HTML as its foundation.</p>
+        <p>Elements are represented by tags that describe the type of content.</p>
+        <code>&lt;h1&gt;Welcome to My Website&lt;/h1&gt;</code>
+        <p>HTML5 introduced semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+        <ul>
+          <li>Use proper heading hierarchy</li>
+          <li>Include alternative text for images</li>
+          <li>Always validate your HTML code</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="CSS_Essentials">
+        <header>CSS Essentials</header>
+        <p>CSS, or Cascading Style Sheets, is used to control the layout and appearance of HTML elements.</p>
+        <p>Developers can style elements using selectors and properties.</p>
+        <p>External stylesheets are linked using the <code>&lt;link&gt;</code> tag in the HTML head.</p>
+        <code>p { color: #333; font-size: 16px; }</code>
+        <p>Modern CSS features include Flexbox, Grid, and custom variables.</p>
+        <ul>
+          <li>Flexbox helps with layout alignment</li>
+          <li>Grid simplifies complex layouts</li>
+          <li>Media queries make websites responsive</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="JavaScript_Basics">
+        <header>JavaScript Basics</header>
+        <p>JavaScript brings interactivity and logic to websites.</p>
+        <p>It allows you to respond to user actions like clicks and keystrokes.</p>
+        <p>JavaScript can modify HTML and CSS dynamically through the DOM (Document Object Model).</p>
+        <code>document.getElementById("demo").innerHTML = "Hello, JavaScript!";</code>
+        <p>Variables, functions, and events form the core of JavaScript programming.</p>
+        <ul>
+          <li>Use <code>let</code> and <code>const</code> for variables</li>
+          <li>Functions make code reusable</li>
+          <li>Events respond to user interactions</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="React_Overview">
+        <header>React Overview</header>
+        <p>React is a popular JavaScript library for building user interfaces.</p>
+        <p>It uses components to break down UI into reusable pieces.</p>
+        <p>React uses JSX, a syntax that combines HTML and JavaScript.</p>
+        <code>function App() { return &lt;h1&gt;Hello React&lt;/h1&gt;; }</code>
+        <p>React makes it easier to manage complex UIs and handle state changes.</p>
+        <ul>
+          <li>Components are reusable</li>
+          <li>Props pass data between components</li>
+          <li>State stores dynamic data</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Responsive_Design">
+        <header>Responsive Design</header>
+        <p>Responsive design ensures your website looks good on all screen sizes.</p>
+        <p>It uses flexible layouts, images, and CSS media queries to adjust design automatically.</p>
+        <p>This makes web pages user-friendly across devices like phones, tablets, and desktops.</p>
+        <code>@media (max-width: 600px) { body { font-size: 14px; } }</code>
+        <p>Tools like Flexbox and Grid simplify responsive layouts.</p>
+        <ul>
+          <li>Use percentage-based widths</li>
+          <li>Use relative units like em or rem</li>
+          <li>Test your design on multiple devices</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
